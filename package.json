@@ -1,0 +1,25 @@
+{
+  "name": "form-practice",
+  "version": "1.0.0",
+  "description": "The aim of this project is to gain familiarity in creating forms that returns an error or reminder if user did not input anything inside the form.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maii0407/form-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maii0407/form-practice/issues"
+  },
+  "homepage": "https://github.com/Maii0407/form-practice#readme",
+  "devDependencies": {
+    "css-loader": "^6.5.1",
+    "style-loader": "^3.3.1",
+    "webpack-cli": "^4.9.1"
+  }
+}
