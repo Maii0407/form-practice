@@ -7,7 +7,44 @@
     <title>Form Practice Project</title>
 </head>
 <body>
-    <div id="container"></div>
+    <form>
+        <p>
+            <label for="email">
+                <span>Please Enter E-Mail :</span>
+                <input type="email" name="email" id="email" required>
+                <span class="error" id="email-error" aria-live="polite"></span>
+            </label>
+        </p>
+        <p>
+            <label for="country">
+                <span>Please Enter Country of Origin :</span>
+                <input type="text" name="country" id="country" required>
+                <span class="error" id="country-error" aria-live="polite"></span>
+            </label>
+        </p>
+        <p>
+            <label for="postcode">
+                <span>Please Enter Postcode :</span>
+                <input type="number" name="postcode" id="postcode" required>
+                <span class="error" id="postcode-error" aria-live="polite"></span>
+            </label>
+        </p>
+        <p>
+            <label for="password">
+                <span>Please Enter Password :</span>
+                <input type="password" name="password" id="password" required>
+                <span class="error" id="password-error" aria-live="polite"></span>
+            </label>
+        </p>
+        <p>
+            <label for="confirm">
+                <span>Please Confirm Password :</span>
+                <input type="password" name="confirm" id="confirm" required>
+                <span class="error" id="confirm-error" aria-live="polite"></span>
+            </label>
+        </p>
+        <button>Submit</button>
+    </form>
     <script src="main.js"></script>
 </body>
 </html>

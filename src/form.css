@@ -9,3 +9,35 @@ form {
     border: 1px solid black;
     padding: 30px;
 }
+
+label {
+    margin-top: 5px;
+}
+
+input {
+    margin-top: 5px;
+}
+
+input:invalid {
+    border: 2px dashed red;
+}
+
+input:valid {
+    border: 1px solid black;
+}
+
+button {
+    margin-top: 5px;
+    width: 20%;
+    background-color: green;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 1;
+}
